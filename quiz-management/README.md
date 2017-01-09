@@ -3,13 +3,14 @@
 Build a REST api with Spray and Akka and Slick
 
 ## DataBase
-
+```
 CREATE TABLE quizs
 (
     id character varying COLLATE pg_catalog."default" NOT NULL,
     data jsonb,
     CONSTRAINT quizs_pkey PRIMARY KEY (id)
 )
+```
 
 ## Run the service:
 ```
